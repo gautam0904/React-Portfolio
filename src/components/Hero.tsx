@@ -770,11 +770,25 @@ Message: ${formData.message}
                 rotate: [0, -2, 2, 0]
               }}
               transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-              className="absolute top-12 -right-16 bg-white/90 backdrop-blur-sm border border-blue-200/50 rounded-xl px-4 py-2 text-sm font-semibold text-slate-700 shadow-lg hover:shadow-xl transition-all duration-300 cursor-default"
+              className="absolute top-32 -right-32 bg-white/90 backdrop-blur-sm border border-blue-200/50 rounded-xl px-4 py-2 text-sm font-semibold text-slate-700 shadow-lg hover:shadow-xl transition-all duration-300 cursor-default"
             >
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse" />
                 Node.js
+              </div>
+            </motion.div>
+
+            <motion.div
+              animate={{ 
+                y: [0, -21, 0],
+                rotate: [0, -22, 22, 0]
+              }}
+              transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
+              className="absolute top-70 -right-100 bg-white/90 backdrop-blur-sm border border-blue-200/50 rounded-xl px-4 py-2 text-sm font-semibold text-slate-700 shadow-lg hover:shadow-xl transition-all duration-300 cursor-default"
+            >
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse" />
+                Angular
               </div>
             </motion.div>
             
