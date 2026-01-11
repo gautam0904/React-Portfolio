@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import gautam from '../../../assets/gautam.png';
 import { Typewriter } from '../../../components/ui';
-import { ArrowUpRightIcon, SparkleIcon, CodeBrackets } from './HeroIcons';
+import { ArrowUpRightIcon, SparkleIcon } from './HeroIcons';
 
 interface HeroCenterContentProps {
     handleHireMe: () => void;

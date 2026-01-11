@@ -39,7 +39,7 @@ const Project: React.FC = () => {
 
             setSubmitMessage('Thank you! We\'ll get in touch soon.');
             setEmail('');
-        } catch (error) {
+        } catch {
             setSubmitMessage('Something went wrong. Please try again.');
         } finally {
             setIsSubmitting(false);

@@ -11,7 +11,6 @@ import {
     HeroBackground,
     HeroTestimonial,
     HeroExperience,
-    HeroScrollIndicator,
     HeroCenterContent
 } from './components';
 
