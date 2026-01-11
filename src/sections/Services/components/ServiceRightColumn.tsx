@@ -1,6 +1,5 @@
 import React from 'react';
 import FeaturedServiceCard from './FeaturedServiceCard';
-import BuildYourStackWidget from './BuildYourStackWidget';
 
 const ServiceRightColumn: React.FC = () => {
     return (
@@ -56,7 +55,6 @@ const ServiceRightColumn: React.FC = () => {
                 delay={0.4}
             />
 
-            <BuildYourStackWidget />
         </div>
     );
 };
